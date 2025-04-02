@@ -12,7 +12,7 @@ Una aplicación de Windows Forms para gestionar y ejecutar análisis de SonarQub
 
 ## Requisitos Previos
 
-- .NET 6.0 o superior
+- .NET 8.0 o superior
 - SonarQube Scanner for .NET instalado
 - SonarQube Server en ejecución (por defecto en localhost:9000)
 
