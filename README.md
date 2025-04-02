@@ -2,14 +2,6 @@
 
 Una aplicación de Windows Forms para gestionar y ejecutar análisis de SonarQube en múltiples proyectos.
 
-## Características
-
-- Gestión de proyectos para análisis de SonarQube
-- Almacenamiento de tokens y configuraciones en formato JSON
-- Verificación del estado de SonarQube antes de ejecutar análisis
-- Interfaz gráfica intuitiva para gestionar proyectos
-- Seguimiento de la última fecha de análisis por proyecto
-
 ## Requisitos Previos
 
 - .NET 8.0 o superior
