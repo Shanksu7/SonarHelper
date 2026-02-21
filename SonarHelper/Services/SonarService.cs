@@ -49,7 +49,7 @@ namespace SonarHelper.Services
                         new SonarCommand
                         {
                             Name = "Análisis con Cobertura",
-                            Command = "dotnet sonarscanner begin /k:\"{name}\" /d:sonar.token=\"{token}\" /d:sonar.cs.vscoveragexml.reportsPaths=coverage.xml /d:sonar.host.url=\"http://localhost:9000\" && dotnet build --no-incremental && dotnet-coverage collect \"dotnet test\" -f xml -o \"coverage.xml\" && dotnet sonarscanner end /d:sonar.token=\"{token}\"",
+                            Command = "dotnet sonarscanner begin /k:\"{name}\" /d:sonar.token=\"{token}\" /d:sonar.cs.vscoveragexml.reportsPaths=coverage.xml /d:sonar.host.url=\"http://localhost:9000\" /d:sonar.scanner.scanAll=false && dotnet build --no-incremental && dotnet-coverage collect \"dotnet test\" -f xml -o \"coverage.xml\" && dotnet sonarscanner end /d:sonar.token=\"{token}\"",
                             Required = true
                         }
                     }
